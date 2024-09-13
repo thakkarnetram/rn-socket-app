@@ -10,7 +10,7 @@ const Home = () => {
 
   useEffect(() => {
     // Initialize the socket connection
-    const socketInstance = io.connect('http://192.168.29.154:3001');
+    const socketInstance = io.connect('http://ip:3001');
 
     // Set the socket instance in state
     setSocket(socketInstance);
